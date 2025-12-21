@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wegworks" mode="merge"/>
+    <filter root="/content/wegworks" mode="merge"/>
+    <filter root="/content/dam/wegworks" mode="merge">
+        <exclude pattern="/content/dam/wegworks(/.*)?"/>
+        <include pattern="/content/dam/wegworks/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/wegworks/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/wegworks" mode="merge"/>
+</workspaceFilter>
